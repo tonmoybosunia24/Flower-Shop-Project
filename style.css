@@ -1,9 +1,78 @@
 /* Common Shared Styles */
 
 body{
-    font-family: 'Open Sans', sans-serif;
     padding: 0px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.fa-solid{
+    margin-right: 7px;
 }
 
 /* Nav Related Style */
+
+.Navber-Container{
+    width: 100%;
+    height: 585px;
+    background-color: #e554732c;
+    background-image: url('images/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: 750px bottom;
+    background-size: contain;
+}
+.Navber-Content-Area{
+    width: 500px;
+    padding: 110px 0px 0px 110px;
+}
+.Navber-Content-Area-Heading{
+    width: 600px;
+    margin: 0px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #272727;
+}
+.Navber-Content-Area-Discription{
+    width: 634px;
+    height: 90px;
+    color: #272727bb;
+    font-size: 18px;
+    margin: 10px 0px 0px 0px;
+}
+.Navber-Content-Image > img{
+    width: 480px;
+    height: 570px;
+    padding-top: 10.05px;
+}
+.Navber-Content-Area-Button{
+    padding: 17px 40px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: #A72162;
+    margin: 100px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+/* Main Section Related Styles */
+
+.Featured-Flowers{
+    width: 594px;
+    height: 132px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Featured-Flowers-Heading{
+    font-size: 40px;
+    margin: 50px 0px 0px 0px;
+}
+.Featured-Flowers-Description{
+    font-size: 18px;
+    margin: 10px 0px;
+    color: #272727;
+}
