@@ -146,3 +146,110 @@ body{
 }
 
 /* Forth Section Styles */
+
+.Forth-Section{
+    background-color: #e554732c;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 60px;
+}
+.Forth-Section-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Hot-Deal-Heading{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.Hot-Deal-Description{
+    font-size: 18px;
+    margin: 10px 0px 20px 0px;
+    color: #2727279d;
+}
+.Hot-Deal-Button{
+    padding: 17px 40px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.Hot-Deal-Image >img{
+    width: 300px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+/* Fifth Section Styles */
+
+.Fifth-Section{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Fifth-Section-Headline{
+    text-align: center;
+}
+.Fifth-Section-Heading{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.Fifth-Section-Description{
+    margin: 10px 0px;
+}
+.Fifth-Section-Container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.Fifth-Section-Content > img{
+    width: 230px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Six Section Styles */
+
+.Six-Section{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.Letest-Deals-Container{
+    background-image: url('images/Rectangle\ 9.png');
+    width: 100%;
+    height: 320px;
+    margin-bottom: 50px;
+}
+.Letest-Deals-Content{
+    text-align: center;
+    padding-top: 40px;
+}
+.Letest-Deals-Content-Heading{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.Letest-Deals-Content-Peragraph{
+    color: #272727a0;
+    margin: 0px 0px;
+}
+.Letest-Deals-Contact{
+    margin: 30px 0px 0px 190px;
+}
+.Letest-Deals-Contact > input{
+    padding: 15px 15px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+}
+.Letest-Deals-Contact-Button{
+    padding: 15px 15px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Section Styles */
