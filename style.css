@@ -61,6 +61,12 @@ body{
 
 /* Main Section Related Styles */
 
+/* Secend Section Styles */
+
+#Secend-Section{
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .Featured-Flowers{
     width: 594px;
     height: 132px;
@@ -69,10 +75,74 @@ body{
 }
 .Featured-Flowers-Heading{
     font-size: 40px;
-    margin: 50px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
 }
 .Featured-Flowers-Description{
     font-size: 18px;
     margin: 10px 0px;
     color: #272727;
 }
+.Featured-Flowers-Container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.Featured-Flower-Section-One{
+    width: 300px;
+    height: 400px;
+    background-color: #e554732c;
+    border-radius: 200px 200px 0px 0px;
+}
+.Featured-Flower-Section-One > img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    padding: 100px 0px 0px 50px;
+}
+.Featured-Flower-Section-Two{
+    width: 300px;
+    height: 400px;
+    background-color: #0598a055;
+    border-radius: 200px 200px 0px 0px;
+}
+.Featured-Flower-Section-Two > img{
+    width: 350px;
+    height: 400px;
+    display: block;
+    padding: 60px 0px 0px 8px;
+}
+.Featured-Flower-Section-Three{
+    width: 300px;
+    height: 400px;
+    background-color: #477d1151;
+    border-radius: 200px 200px 0px 0px;
+}
+.Featured-Flower-Section-Three > img{
+    width: 305px;
+    height: 340px;
+    display: block;
+    padding: 60px 0px 0px 1px;
+}
+.Pink-Flower-Tree-Container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+/* Third Section Styles */
+
+.Third-Section{
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+.Third-Section-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #27272765;
+    padding: 50px 0px 30px 0px;
+    margin: 50px 0px 70px 0px;
+}
+
+/* Forth Section Styles */
