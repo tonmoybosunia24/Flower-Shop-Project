@@ -165,6 +165,9 @@ body{
     font-size: 40px;
     margin-bottom: 0px;
 }
+.Hot-Deal-Heading > span{
+    color: #E55473;
+}
 .Hot-Deal-Description{
     font-size: 18px;
     margin: 10px 0px 20px 0px;
@@ -253,3 +256,20 @@ body{
 }
 
 /* Footer Section Styles */
+
+.Footer-Container{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+.Footer-Header{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.Footer-Header > span{
+    color: #E55473;
+}
+.Footer-Copyright{
+    color: #ffffff79;
+}
