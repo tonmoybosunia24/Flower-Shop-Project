@@ -126,11 +126,11 @@ body{
     display: block;
     padding: 60px 0px 0px 1px;
 }
-.jdklfjkljd{
+.Flower-Name{
     text-align: center;
     margin: 10px 0px;
 }
-.jdklfjkljd > a{
+.Flower-Name > a{
     text-decoration: none;
 }
 
@@ -147,7 +147,7 @@ body{
     text-align: center;
     background-color: #27272765;
     padding: 50px 0px 30px 0px;
-    margin: 50px 0px 70px 0px;
+    margin: 70px 0px 70px 0px;
 }
 
 /* Forth Section Styles */
@@ -335,5 +335,75 @@ body{
     }
     .Third-Section-Div:nth-child(3){
         padding-bottom: 35px;
+    }
+    .Forth-Section{
+        margin-bottom: 0px;
+    }
+    .Forth-Section-Container{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .Hot-Deal-Heading{
+        margin-top: 90px;
+    }
+    .Hot-Deal-Description{
+        width: 90%;
+        font-size: 15px;
+        margin: 20px auto;
+    }
+    .Hot-Deal-Image{
+        display: none;
+    }
+    .Fifth-Section-Description{
+        font-size: 18px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .Fifth-Section-Container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 0px;
+    }
+    .Fifth-Section-Content > img{
+        width: 320px;
+        height: 385px;
+    }
+    .Six-Section{
+        width: 100%;
+        margin-top: 65px;
+        margin-bottom: 0px;
+    }
+    .Letest-Deals-Container{
+        margin-bottom: 0px;
+        height: 245px;
+    }
+    .Letest-Deals-Content-Heading {
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .Letest-Deals-Contact{
+        margin: 7px 0px 0px 18px;
+    }
+    .Letest-Deals-Content{
+        padding-top: 22px;
+    }
+    .Letest-Deals-Contact > input {
+        padding: 15px 15px;
+        width: 219px;
+        border: none;
+        border-radius: 5px;
+    }
+    .Footer-Container {
+        padding: 20px 0px 50px 0px;
+    }
+    .Footer-Description{
+        font-size: 10px;
+    }
+    .Footer-Copyright{
+        font-size: 10px;
     }
 }
