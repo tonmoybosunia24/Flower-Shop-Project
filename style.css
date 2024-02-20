@@ -109,10 +109,10 @@ body{
     border-radius: 200px 200px 0px 0px;
 }
 .Featured-Flower-Section-Two > img{
-    width: 350px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     display: block;
-    padding: 60px 0px 0px 8px;
+    padding: 100px 0px 0px 50px;
 }
 .Featured-Flower-Section-Three{
     width: 300px;
@@ -126,10 +126,12 @@ body{
     display: block;
     padding: 60px 0px 0px 1px;
 }
-.Pink-Flower-Tree-Container{
-    display: flex;
-    justify-content: space-around;
-    font-weight: bold;
+.jdklfjkljd{
+    text-align: center;
+    margin: 10px 0px;
+}
+.jdklfjkljd > a{
+    text-decoration: none;
 }
 
 /* Third Section Styles */
@@ -301,14 +303,37 @@ body{
         font-size: 16px;
         margin: 10px 0px;
     }
-    .Navber-Container-Area-Image{
-        
-    }
     .Navber-Container-Area-Image > img{
         width: 100%;
         height: 450px;
     }
     .Navber-Content-Area-Button{
         margin-top: 30px;
+    }
+    .Featured-Flowers{
+        width: 100%;
+    }
+    .Featured-Flowers-Description{
+        font-size: 15px;
+    }
+    .Featured-Flowers-Container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Featured-Flower-Section-One, .Featured-Flower-Section-Two, .Featured-Flower-Section-Three{
+        margin-top: 50px;
+    }
+    .Third-Section{
+        border: none;
+    }
+    .Third-Section-Container{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .Third-Section-Div{
+        padding-top: 20px;
+    }
+    .Third-Section-Div:nth-child(3){
+        padding-bottom: 35px;
     }
 }
