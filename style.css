@@ -13,12 +13,15 @@ body{
 
 .Navber-Container{
     width: 100%;
-    height: 585px;
+    height: 100vh;
     background-color: #e554732c;
-    background-image: url('images/pngwing\ 10.png');
-    background-repeat: no-repeat;
-    background-position: 750px bottom;
-    background-size: contain;
+    display: flex;
+    gap: 150px;
+    overflow: hidden;
+}
+.Navber-Container-Area-Image > img{
+    width: 100%;
+    height: 101.05vh;
 }
 .Navber-Content-Area{
     width: 500px;
@@ -38,11 +41,11 @@ body{
     font-size: 18px;
     margin: 10px 0px 0px 0px;
 }
-.Navber-Content-Image > img{
+/* .Navber-Content-Image > img{
     width: 480px;
     height: 570px;
     padding-top: 10.05px;
-}
+} */
 .Navber-Content-Area-Button{
     padding: 17px 40px;
     background-color: #E55473;
@@ -272,4 +275,35 @@ body{
 }
 .Footer-Copyright{
     color: #ffffff79;
+}
+
+/* Responsive Styles */
+.Hide{
+    display: none;
+}
+@media screen and (max-width:776px) {
+    .Navber-Container{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .Navber-Content-Area{
+        width: 80%;
+        padding: 50px 0px 0px 30px;
+    }
+    .Navber-Content-Area-Heading{
+        width: 100%;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .Navber-Content-Area-Discription{
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .Navber-Container-Area-Image{
+        display: none;
+    }
+    .Navber-Content-Area-Button{
+        margin-top: 50px;
+    }
 }
